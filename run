@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -rf dashboard.out dashboard.err dashboard.log
+panel serve --prefix osmc --disable-index-redirect --port 8947 --allow-websocket-origin dunkel.pmel.noaa.gov:8947 --log-file dashboard.log dashboard.ipynb > dashboard.out 2>dashboard.err
