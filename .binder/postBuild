@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# ensure proxy is installed
+jupyter labextension install @jupyterlab/server-proxy
+
+# download data and convert to pickle
+./download_latest.sh
+python ReadWrite.py

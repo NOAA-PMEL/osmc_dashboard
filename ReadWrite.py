@@ -11,7 +11,6 @@
 
 
 import pandas as pd
-import utility as u
 import numpy as np
 import datetime
 import colorcet as cc

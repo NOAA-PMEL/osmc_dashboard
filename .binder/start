@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -rf dashboard.out dashboard.err dashboard.log
+panel serve --disable-index-redirect --port 12345 --allow-websocket-origin '*' \
+  --log-file dashboard.log dashboard.ipynb > dashboard.out 2>dashboard.err &
+
+exec "$@"
