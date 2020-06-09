@@ -1,4 +1,7 @@
 # osmc_dashboard (It's live in [public beta](https://ferret.pmel.noaa.gov/osmc/dashboard))
+
+Thanks to bindarization by [@willirath](https://github.com/willirath) you can run the notebook at [mybinder.org] (https://mybinder.org/v2/gh/NOAA-PMEL/osmc_dashboard.git/master?filepath=dashboard.ipynb).
+
 This is an implementation of a data dashboard for the Ocean Systems Monitoring System built on Holoviz.
 
 This repository contains the entire workflow for preparing the data and displaying it using the dashboard.
