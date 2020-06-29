@@ -35,6 +35,15 @@
     font-weight: 400;
     line-height: 24px;
 }
+.dash-link {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 30px;
+}
 #DIV_1 {
     bottom: 0px;
     float: left;
@@ -50,7 +59,6 @@
     font: 13px / 19.5px Verdana, Helvetica, Arial, sans-serif;
     margin: 0px 10px;
 }/*#DIV_1*/
-
 #DIV_1:after {
     text-align: left;
     font: 13px / 19.5px Verdana, Helvetica, Arial, sans-serif;
